@@ -18,13 +18,13 @@ Key Features:
    - Users can track the status of their couriers by entering the courier ID.
    - The system retrieves and displays the courier's current status,as well as information about the sender and receiver.
 
-4. Status Updates:
-    - Users can update the status of a courier by entering the courier ID and the new status (e.g:"Delivered").
+4.Status Updates:
+   - Users can update the status of a courier by entering the courier ID and the new status (e.g:"Delivered").
 
-5. Database Management:
-    - The application connects to a MySQL database, creating necessary tables for customers and couriers if they don't already exist.
-    - The 'customers' table stores user information, including a unique registration number and encrypted passwords.
-    - The 'couriers' table stores information about each courier,including the sender's ID (linked to the customer),receiver details and the current status of the courier.
+5.Database Management:
+   - The application connects to a MySQL database, creating necessary tables for customers and couriers if they don't already exist.
+   - The 'customers' table stores user information, including a unique registration number and encrypted passwords.
+   - The 'couriers' table stores information about each courier,including the sender's ID (linked to the customer),receiver details and the current status of the courier.
 
 Setup Instructions:
 
